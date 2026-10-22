@@ -1,0 +1,64 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio and .NET tooling
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Rider and IntelliJ-based IDEs
+.idea/
+*.DotSettings.user
+
+# Test and coverage output
+TestResults/
+test-results/
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+
+# NuGet and package artifacts
+*.nupkg
+*.snupkg
+packages/
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Local databases and generated data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+appsettings.*.Local.json
+secrets.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Generated documentation and publish output
+[Pp]ublish/
+[Pp]ublish[Oo]utput/
+artifacts/

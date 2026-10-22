@@ -1,0 +1,2 @@
+GET http://localhost:5118/api/room/1
+Accept: application/json
